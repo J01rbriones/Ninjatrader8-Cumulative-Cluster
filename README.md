@@ -1,7 +1,7 @@
 # NT8-Cumulative-Cluster
 
 ### 📊 Análisis de Flujo de Órdenes y Acción del Precio
-![Vista del Gráfico](cluster.png)
+![Vista del Gráfico](Cumulative_png/cluster.png)
 
 ## 🎯 ¿Qué hace este indicador?
 Este indicador avanzado de **Order Flow** para NinjaTrader 8 rastrea la agresividad institucional en tiempo real. Su función principal es procesar el volumen y transformarlo en **datos visuales de alta precisión** directamente sobre las velas japonesas.
@@ -27,7 +27,7 @@ Para un análisis profesional exhaustivo, el script envía datos detallados a la
 * **Pestaña 1 (Flujo de Órdenes):** Registro de cada orden individual que golpea el mercado.
 * **Pestaña 2 (Registro de Clústeres):** Auditoría de los clústeres dibujados, filtrados por el **Output Threshold ($)** para evitar ruido.
 
-![Detalle de Salidas y Consola](order.png)
+![Detalle de Salidas y Consola](Cumulative_png/order.png)
 
 ## 🛠 Parámetros Técnicos
 | Parámetro | Descripción |
