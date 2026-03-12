@@ -9,8 +9,8 @@ Este indicador avanzado de **Order Flow** para NinjaTrader 8 rastrea la agresivi
 ## 🚀 Funciones Principales en el Gráfico
 
 ### 1. Clústeres Dinámicos de Agresividad
-El indicador dibuja elipses en los puntos donde se detecta una entrada de capital inusual.
-* **Inteligencia Visual:** El tamaño y la opacidad de los círculos no son fijos; reaccionan proporcionalmente a la intensidad del dinero. A mayor capital, mayor es el círculo y más fuerte su color.
+El indicador dibuja rectangulos en los puntos donde se detecta una entrada de capital inusual.
+* **Inteligencia Visual:** El tamaño y la opacidad de los rectangulos no son fijos; reaccionan proporcionalmente a la intensidad del dinero. A mayor capital, mayor es el rectangulo y más fuerte su color.
 * **Métricas de Compra/Venta:** Identifica instantáneamente si la agresividad proviene del *Ask* (compras institucionales) o del *Bid* (ventas institucionales).
 
 ### 2. Valores en Cascada (Historial de Clústeres)
@@ -19,7 +19,7 @@ En las esquinas superiores del gráfico, el indicador genera una lista vertical 
 * **Totales Locales:** Suma automáticamente el valor de esta cascada para darte el volumen total acumulado del movimiento reciente.
 
 ### 3. Sincronización Global Multi-Instrumento
-* **Cómputo Unificado:** Gracias a su arquitectura, si aplicas el indicador en varios gráficos (ej. ES, NQ y RTY), los valores de **Global Orders Total** sumarán la actividad de todos los mercados simultáneamente.
+* **Cómputo Unificado:** Gracias a su arquitectura, si aplicas el indicador en varios gráficos (ej. ES, NQ, MES, MNQ) (Acciones indices y etf), los valores de **Global Orders Total** sumarán la actividad de todos los mercados simultáneamente.
 * **Visión Macro:** Te permite ver el sentimiento total del mercado de índices desde un solo gráfico.
 
 ## 🖥️ Monitoreo de Salidas (NinjaScript Output)
@@ -34,8 +34,8 @@ Para un análisis profesional exhaustivo, el script envía datos detallados a la
 | :--- | :--- |
 | **Cluster Threshold** | Volumen mínimo necesario para que se genere un clúster visual. |
 | **Output Threshold ($)** | Valor monetario mínimo para que una orden o clúster se registre en la consola. |
-| **Normalization Multiplier** | Ajusta la sensibilidad visual (mapeo de $ a tamaño de círculo). |
-| **Cluster Circle Max Scale** | Tamaño máximo permitido para las elipses en el gráfico. |
+| **Normalization Multiplier** | Ajusta la sensibilidad visual (mapeo de $ a tamaño de cluster). |
+| **Cluster Max Scale** | Tamaño máximo permitido para las rectangulos en el gráfico. |
 
 ## 🚀 Instalación
 1. Descarga el archivo `CumulativeCluster.cs`.
