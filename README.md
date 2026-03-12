@@ -35,7 +35,7 @@ Para un análisis profesional exhaustivo, el script envía datos detallados a la
 | **Cluster Threshold** | Volumen mínimo necesario para que se genere un clúster visual. |
 | **Output Threshold ($)** | Valor monetario mínimo para que una orden o clúster se registre en la consola. |
 | **Normalization Multiplier** | Ajusta la sensibilidad visual (mapeo de $ a tamaño de cluster). |
-| **Cluster Max Scale** | Tamaño máximo permitido para las rectangulos en el gráfico. |
+| **Cluster Max Scale** | Tamaño máximo permitido para los rectangulos en el gráfico. |
 
 ## 🚀 Instalación
 1. Descarga el archivo `CumulativeCluster.cs`.
